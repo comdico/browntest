@@ -91,7 +91,7 @@ aside {
     padding: 5em 0 0 3em;
     color:#03cc03;
 }
-header[role="banner"] aside p {
+header.banner aside p {
     color:#03cc03;
     font-size:.8em;
 }
