@@ -1,0 +1,160 @@
+/*
+TYPOGRAPHY
+========================
+*/
+
+body {
+    font-family:  "tahoma", sans-serif;
+    width:600px;
+    margin: 0 auto;
+    background-color:white;
+    color:#444;
+
+}
+h2 {
+    font-size: .9em;
+    margin: 0;
+    padding:0;
+}
+
+p {
+    font-size: .8em;
+    margin:0 0 1em 0;
+}
+
+header[role="banner"] h1 {
+    color: #036699;
+    font-family:  "Tahoma", sans-serif;
+    font-size:3.5rem;
+    font-weight:800;
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); /* IE 9 */
+    -webkit-transform:rotate(-10deg); /* Opera, Chrome, and Safari */
+    text-shadow: -3px 3px 4px rgba(0, 0, 0, 0.72);
+    margin: .5em 0 0 0;
+    padding: 0 0 0 .2em;
+    float:left;
+    width:49%;
+}
+
+header[role="banner"] h1 span {
+    display:block;
+    color:#03cc03;
+    font-size:3.5rem;
+    font-weight:200;
+}
+
+header[role="banner"] p {
+    color: #0caee3;
+    font-size: .9em;
+    font-weight:100;
+    float: right;
+    width:48%;
+    margin:1em 0 1em 0;
+}
+
+/*
+MODULES
+==========================
+*/
+html {
+  /* fallback */
+  background-color: #000;
+  /* ie8/9 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#666666, endColorstr=#000000)";
+  background-image:
+    linear-gradient(
+      #666, #000
+    );
+    /* expands gradient to viewport */
+    min-height: 100%
+
+
+
+}
+
+/*
+HEADER
+--------------------------
+*/
+
+header[role="banner"] {
+    margin: 0 1.2em;
+    padding: 0 0 1em 0;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-bottom: 5px solid #666666;
+}
+
+aside {
+    padding: 5em 0 0 3em;
+    color:#03cc03;
+}
+header[role="banner"] aside p {
+    color:#03cc03;
+    font-size:.8em;
+}
+
+/*
+MAIN
+==================
+*/
+
+main {
+    margin:2em 1.2em;
+    padding-bottom:3.5em;
+}
+
+.col1, .col2 {
+  width:45%;
+}
+.col1 {float:left}
+.col2 {margin-left:55%;}
+
+
+/* FORM
+====================== */
+
+#contact_form ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    /* list-style-position:outside; */
+
+}
+
+#contact_form label {
+    width:70px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:.4em .5em .4em .4em;
+    text-align:right;
+    font-weight:600;
+    font-size: .9em;
+}
+
+#contact_form label.comments {
+    vertical-align: top;
+}
+
+#contact_form input {
+    height:15px;
+    width:160px;
+    border:1px solid black;
+}
+#contact_form textarea {
+  padding: .4em;
+  resize: none;
+  border:1px solid black;
+  width:155px;
+  margin-top: .4em;
+}
+#contact_form button {
+  cursor: pointer;
+  border: 1px solid black;
+  width:80px;
+  background-color: white;
+  font-size: .9em;
+  font-weight:600;
+}
