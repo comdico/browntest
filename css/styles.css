@@ -25,7 +25,7 @@ p {
 header.banner h1 {
     color: #036699;
     font-family:  "Tahoma", sans-serif;
-    font-size:3.5rem;
+    font-size:3.5em;
     font-weight:800;
     transform:rotate(-10deg);
     -ms-transform:rotate(-10deg); /* IE 9 */
@@ -35,13 +35,14 @@ header.banner h1 {
     padding: 0 0 0 .2em;
     float:left;
     width:49%;
+    white-space: nowrap;
 }
 
 header.banner h1 span {
     display:block;
     color:#03cc03;
-    font-size:3.5rem;
     font-weight:200;
+    word-spacing:-.3em;
 }
 
 header.banner p {
@@ -101,7 +102,7 @@ MAIN
 ==================
 */
 
-main {
+section {
     margin:2em 1.2em;
     padding-bottom:5em;
 }
