@@ -22,7 +22,7 @@ p {
     margin:0 0 1em 0;
 }
 
-header[role="banner"] h1 {
+header.banner h1 {
     color: #036699;
     font-family:  "Tahoma", sans-serif;
     font-size:3.5rem;
@@ -37,14 +37,14 @@ header[role="banner"] h1 {
     width:49%;
 }
 
-header[role="banner"] h1 span {
+header.banner h1 span {
     display:block;
     color:#03cc03;
     font-size:3.5rem;
     font-weight:200;
 }
 
-header[role="banner"] p {
+header.banner p {
     color: #0caee3;
     font-size: .9em;
     font-weight:100;
@@ -78,7 +78,7 @@ HEADER
 --------------------------
 */
 
-header[role="banner"] {
+header.banner {
     margin: 0 1.2em;
     padding: 0 0 1em 0;
     position: relative;
