@@ -121,7 +121,6 @@ section {
     margin:0px;
     padding:0px;
     list-style-type:none;
-    /* list-style-position:outside; */
 
 }
 
@@ -146,11 +145,11 @@ section {
 }
 #contact_form textarea {
   padding: .4em;
-  resize: none;
+  resize: none; /* remove resizing */
   border:1px solid black;
   width:150px;
   margin-top: .4em;
-  overflow: auto;
+  overflow: auto; /* hide scrollbars in IE */
 }
 #contact_form button {
   cursor: pointer;

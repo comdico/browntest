@@ -14,6 +14,7 @@
 
 <body>
 
+<!-- Banner -->
 	<header role="banner" class="banner">
 		<h1>We Love <span>HTML &#43; CSS</span></h1>
         <p><strong>Want to join a world-class team?</strong><br>
@@ -23,6 +24,7 @@
 	</aside>
 	</header>
 
+<!-- Main -->
 	<main role="main">
 	<section>
 		<div class="col1">
@@ -30,31 +32,33 @@
 			<header>
 				<h2>What is semantic HTML?</h2>
 			</header>
-			<p>Semantic HTML defines the structure of web documents so that it's markup adds contextual meaning to it that can improve comprehansion by humans as well as machines. Semantic markup can both help structure a document at the macro level by using the HTML outline model to create the correct document structure, and through the use of specific tags (HTML and micro-formats) that help define a dopcument's meaning at the micro level. </p>
+			<p>Semantic HTML is a term used to describe the markup of web documents that follows the best practice of separating content from presentation. Such documents avoid the extraneous use of unnecessary html tags in favor of markup that lends contextual and structural meaning, which can improve comprehension by humans as well as machines.</p>
 		</article>
 
 		<article role="article">
 			<header>
 				<h2>What is accessibility?</h2>
 			</header>
-			<p>HTML documents should be accessible be as many devices as possible, including screen readers. Many people in the world still access web content via older browsers or cell phones with older embedded browsers.</p>
-			<p>Accessibility for screen readers is best acheived by incorporating WAI-ARIA attributes, which help define a page's structure for specialized web-clients for people with disabilities.</p>
+			<p>HTML documents should be accessible to as many devices as possible, including screen readers. World-wide, many users still access web content with aging desktops or cell phones with older embedded browsers. Semantic HTML helps ensure a page's accessibility.</p>
+			<p>Accessibility for screen readers is best achieved by incorporating WAI-ARIA attributes, which define a page's structure in terms understood by specialized web-clients for people with disabilities.</p>
 			<p>The WAI-ARIA spec is now a formal part of the <a href="http://www.w3.org/TR/html51/dom.html#wai-aria">W3C specification.</a></p>
 		</article>
 	</div>
 
+<!-- Oliver Richenstein says that columns are dead;
+while we wait for flexbox to test this hypothesis, we will make due with the lowly div -->
 <div class="col2">
 		<article class="progressive" role="article">
 			<header>
 				<h2>What is progressive enhancement?</h2>
 			</header>
-			<p>Progressive enhancement is a strategy for building webpages that are semantic, accessible, and work in as many browsers as possible. </p>
-			<p>As oppossed to graceful degradation, which treats accessibility from the standpoint of a finished site with all the bells and whistles, progressive enhancement, builds the core product with the most basic of tools, and then adds enhancements, such as CSS3 and Javascript to layer in complex functionality</p>
-			<p>Responsive design and content-out is an out growth of progressive enhancement.  </p>
+			<p>Progressive enhancement is a strategy for building webpages that are semantic, accessible, and agile. </p>
+			<p>As opposed to graceful degradation, which achieves accessibility by working backwards from a finished site with all the bells and whistles, progressive enhancement builds the core product with the most basic of tools, iteratively enhancing the feature set as needed to layer in more complex functionality.</p>
+			<p>Progressive enhancement can be thought of as the parent of Responsive Design and works nicely with agile and Responsive workflows.</p>
 		</article>
 
 
-
+<!-- Form -->
     <form id="contact_form" action=""  method="post" name="contact_form">
 			<ul>
 			<li>
